@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.header {
+    background-color: crimson;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.sm-icons {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.left-img {
+    margin-right: 20px;
+    border: solid 1px black;
+}
+
+.right-half {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 3.85px;
+}
+
+.section .icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.section .icon-container img {
+    margin-right: 10px;
+}
